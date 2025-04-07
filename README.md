@@ -6,7 +6,6 @@ This repository contains my solution to the **HAMS Data Science Challenge**, foc
 
 The goal was to model delayed effects of marketing, estimate uncertainty, and derive channel-specific return on investment (ROI).
 
-
 ---
 
 ## 📁 Folder Structure
@@ -17,6 +16,7 @@ The goal was to model delayed effects of marketing, estimate uncertainty, and de
 | `Notebook_Shayekh_Mohiuddin_Ahmed_Navid_DataScience_202209.ipynb` | Full analysis notebook: EDA, modeling, inference, validation, insights |
 | `Report.pdf` | A 4-page summary report with modeling overview, insights, and answers to challenge questions |
 | `README.md` | This file |
+| `requirements.txt` | Required Python packages (for pip installs) |
 
 ---
 
@@ -41,9 +41,20 @@ The goal was to model delayed effects of marketing, estimate uncertainty, and de
 
 ---
 
-## 📦 How to Run
+## ⚙️ How to Set Up (Conda)
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/shayekh00/DataScience_202209_Solution.git
-   cd DataScience_202209_Solution
+If you’re using Anaconda or Miniconda, follow these steps:
+
+```bash
+# 1. Create a new environment
+conda create -n hams_mmm python=3.10
+
+# 2. Activate the environment
+conda activate hams_mmm
+
+# 3. Install required packages via pip
+pip install -r requirements.txt
+
+# 4. (Optional) Add this environment to Jupyter kernels
+pip install ipykernel
+python -m ipykernel install --user --name=hams_mmm
