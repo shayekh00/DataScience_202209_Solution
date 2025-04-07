@@ -6,8 +6,6 @@ This repository contains my solution to the **HAMS Data Science Challenge**, foc
 
 The goal was to model delayed effects of marketing, estimate uncertainty, and derive channel-specific return on investment (ROI).
 
-🔗 **Live Repo:**  
-[https://github.com/shayekh00/DataScience_202209_Solution/tree/main](https://github.com/shayekh00/DataScience_202209_Solution/tree/main)
 
 ---
 
